@@ -1,7 +1,7 @@
 # GC×GC DL
 This study develops and evaluates a workflow for applying the end-to-end deep learning model LCMS-Net to GC×GC-TOFMS metabolomics data using condensed retention-time representations. LCMS-Net performance was benchmarked against random forest (RF) and partial least squares discriminant analysis (PLS-DA) using tile-based and conventional peak table-based workflows, with additional evaluation of input optimization, data preprocessing, and instrumental batch effects. This repository provides the source code for implementing LCMS-Net and peak table-based classification workflows.
 
-Add figure
+![workflow](https://github.com/MSBSiriraj/GCxGCDL/blob/main/GCGC_DL_workflow.png)
 
 How to use
 ==========
