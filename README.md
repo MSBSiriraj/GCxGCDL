@@ -9,7 +9,7 @@ How to use
 
 To generate input data for LCMS-Net, RT1 and RT2 are combined into a single retention-time axis. Two RT composite approaches are available: (1) SumRT, which combines RT1 and RT2 by summation, and (2) CompRT, which generates a composite RT representation. LCMS-Net is then trained and evaluated using the default matrix dimensions and aggregation method.
 
-Generate .npy input files 
+1. Generate .npy input files 
    * CompRT: bin_data_CompRT.py 
    * SumRT: bin_data_SumRT.py
 2. Generate training and test sample lists
@@ -24,7 +24,7 @@ ASCII peak tables exported from the instrument software are used as input. The p
 Prerequisite: RF and PLS-DA modeling is implemented using the caret R package through the MMFramework platform (MMFramework_balanced.R). 
 MMFramework and its required dependencies should therefore be installed before running the RF and PLS-DA scripts.
 
-Generate input matrices
+1. Generate input matrices
    * CompRT: combine_peaktable_CompRT.py 
    * SumRT: combine_peaktable_SumRT.py
 2. RF classification
